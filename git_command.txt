@@ -1,14 +1,10 @@
-git bash 명령어     
+git bash 명령어 및 개념
 
 ㅡㅡㅡㅡㅡㅡㅡ REDE MEㅡㅡㅡㅡㅡㅡㅡ 
 대문자로 표기한건 사용자지정문구, 첫글자 탭은 그 전 줄과 연관 있는 문구
 이름에 띄어쓰기있으면 따옴표로 묶음
-원격저장소를 사용할때 새로만든것(홈페이지에서)이 아니라면 
-	git init 후 pull을 통해 상태를 같게 해야함
-	무작정 하면 덮어씌어져버림
-	pull 했을 시 파일안에 >>>HEAD  , ====이 붙어있을경우
-		HEAD가 현재 파일의 코드, ===부분이 pull한 코드
-remote, add, commit공간
+remote, add, commit공간은 폴더의 .git 폴더마다 따로 배치
+오른쪽 클릭시 git bash로 열기 있음
 
 ㅡㅡㅡㅡㅡㅡㅡ init 부분 ㅡㅡㅡㅡㅡㅡㅡ 
 git init -> 해당 폴더를 깃허브와 연동할수 있게 초기화(숨긴 폴더 .git 생성)
@@ -27,7 +23,13 @@ git push ADDRESS_NAME BRANCH_NAME -> 원격 저장소인 깃 홈페이지에 com
 	reomte에 추가한 이름으로 저장소 주소를 넣고, 현재 사용중인 브런치(default : master)를 적음
 
 ㅡㅡㅡㅡㅡㅡㅡ pull 부분 ㅡㅡㅡㅡㅡㅡㅡ
+git push ADDRESS_NAME BRANCH_NAME -> 원격저장소에서 최신 커밋버젼을 가져옴
 
+원격저장소를 사용할때 새로만든것(홈페이지에서)이 아니라면 
+	git init 후 pull을 통해 상태를 같게 해야함
+	무작정 하면 덮어씌어져버림
+	pull 했을 시 파일안에 >>>HEAD  , ====이 붙어있을경우
+		HEAD가 현재 파일의 코드, ===부분이 pull한 코드
 
 ㅡㅡㅡㅡㅡㅡㅡ 참고 링크 ㅡㅡㅡㅡㅡㅡㅡ
 https://www.youtube.com/watch?v=tC8Xj_Bf8Fw
