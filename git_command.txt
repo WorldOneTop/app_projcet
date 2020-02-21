@@ -18,8 +18,12 @@ git remote add NAME ADDRESS -> 원격저장소 주소를 NAME으로 쓸 수 있�
 git status -> 현재폴더(pwd)에서 git 로컬 저장소와 비교해 변경사항 확인( 연결 확인 )
 	빨간색은 변경 후 commit X, 초록색은 커밋 후 push X(로컬저장소인 add 한상태)
 
+<<<<<<< HEAD
 밑 과정은 순서대로 해야하고 git status로 상태 수시로 확인
 
+=======
+밑 과정은 순서대로 해야함
+>>>>>>> f7c5e120fca593c2ff10c150b984d33f3db31ea6
 git add FILE_NAME -> 해당 파일을 로컬저장소로 올리기,  (  . 사용시 변경사항(빨간색) 모두 올림)
 git commit -m "MESSAGE" -> 메모를 포함해 로컬저장소의 있던 하나로 묶어서 push 대기
 git push ADDRESS_NAME BRANCH_NAME -> 원격 저장소인 깃 홈페이지에 commit한걸 올림
