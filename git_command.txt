@@ -10,7 +10,7 @@ remote, add, commit공간
 
 ㅡㅡㅡㅡㅡㅡㅡ init 부분 ㅡㅡㅡㅡㅡㅡㅡ 
 git init -> 해당 폴더를 깃허브와 연동할수 있게 초기화(숨긴 폴더 .git 생성)
-git remote add NAME ADDRESS -> 원격저장소 주소를 NAME으로 쓸 수 있게 추가함
+git remote add NAME ADDRESS -> 원격저장소 주소를 NAME으로 동기화 할 수 있게 함
 	git remote remove NAME -> NAME인 저장소 지움
 
 
