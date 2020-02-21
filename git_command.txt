@@ -16,7 +16,7 @@ git remote add NAME ADDRESS -> 원격저장소 주소를 NAME으로 쓸 수 있�
 
 ㅡㅡㅡㅡㅡㅡㅡ push 부분 ㅡㅡㅡㅡㅡㅡㅡ
 git status -> 현재폴더(pwd)에서 git 로컬 저장소와 비교해 변경사항 확인( 연결 확인 )
-	빨간색은 변경 후 commit X, 초록색은 커밋 후 push X(로컬저장소인 add 한상태)
+	빨간색은 변경 후 add X, 초록색은 add 후 commit X(로컬저장소인 add 한상태)
 
 <<<<<<< HEAD
 밑 과정은 순서대로 해야하고 git status로 상태 수시로 확인
