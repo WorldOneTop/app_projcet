@@ -1,5 +1,11 @@
-git bash 명령어     이름에 띄어쓰기있으면 따옴표로 묶음, 대문자로 표기한건 사용자지정문구
+git bash 명령어     
 
+ㅡㅡㅡㅡㅡㅡㅡ REDE MEㅡㅡㅡㅡㅡㅡㅡ 
+대문자로 표기한건 사용자지정문구, 탭은 그 전 줄과 연관 있는 문구
+이름에 띄어쓰기있으면 따옴표로 묶음
+원격저장소를 사용할때 새로만든것(홈페이지에서)이 아니라면 
+	git init 후 pull을 통해 상태를 같게 해야함
+remote, add, commit공간
 
 ㅡㅡㅡㅡㅡㅡㅡ init 부분 ㅡㅡㅡㅡㅡㅡㅡ 
 git init -> 해당 폴더를 깃허브와 연동할수 있게 초기화(숨긴 폴더 .git 생성)
@@ -9,6 +15,8 @@ git remote add NAME ADDRESS -> 원격저장소 주소를 NAME으로 쓸 수 있�
 
 ㅡㅡㅡㅡㅡㅡㅡ push 부분 ㅡㅡㅡㅡㅡㅡㅡ
 git status -> 현재폴더(pwd)에서 git 로컬 저장소와 비교해 변경사항 확인( 연결 확인 )
+
+밑 과정은 순서대로
 git add FILE_NAME -> 해당 파일을 로컬저장소로 올리기,  (  . 사용시 status의 빨간색(변경사항) 모두 올림)
 git commit -m "MESSAGE" -> 메모를 포함해 로컬저장소의 있던 하나로 묶어서 push 대기
 git push ADDRESS_NAME BRANCH_NAME -> 원격 저장소인 깃 홈페이지에 commit한걸 올림
