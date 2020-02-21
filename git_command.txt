@@ -6,7 +6,7 @@ git remote add NAME ADDRESS -> 원격저장소 주소를 NAME으로 쓸 수 있�
 
 --초기화부분--
 
-git status -> 현재폴더(pwd)와
+git status -> 현재폴더(pwd)에서 git commit저장소와 맞는지? 추적
 
 
 
